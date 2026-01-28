@@ -1,0 +1,10 @@
+# Docker ignore file
+.git
+.gitignore
+*.md
+*.log
+__pycache__
+*.pyc
+.env.local
+node_modules
+vendor
