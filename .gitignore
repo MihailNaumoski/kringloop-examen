@@ -1,0 +1,31 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+/vendor/
+
+# Uploads (keep directory, ignore contents)
+/uploads/*
+!/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temp files
+*.tmp
+*.temp
